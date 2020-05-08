@@ -31,14 +31,16 @@ class Cat extends Animal {
 // var cat = new Cat("Stormy")
 // cat.eat()
 // cat.sound()
-let anyAnimal = [];
 class Home {
+    constructor() {
+        this.anyAnimal = [];
+    }
     adoptPet(animal) {
-        anyAnimal.push(animal);
+        this.anyAnimal.push(animal);
     }
     makeAllSounds() {
-        for (let i = 0; i < anyAnimal.length; i++) {
-            anyAnimal[i].sound();
+        for (let i = 0; i < this.anyAnimal.length; i++) {
+            this.anyAnimal[i].sound();
         }
     }
 }
