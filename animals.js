@@ -25,12 +25,13 @@ class Cat extends Animal {
         console.log(`Cat meows`);
     }
 }
-// var dog = new Dog("Rax")
-// dog.eat()
-// dog.sound()
-// var cat = new Cat("Stormy")
-// cat.eat()
-// cat.sound()
+
+var dog = new Dog("Rax")
+dog.eat()
+dog.sound()
+var cat = new Cat("Stormy")
+cat.eat()
+cat.sound()
 class Home {
     constructor() {
         this.anyAnimal = [];
