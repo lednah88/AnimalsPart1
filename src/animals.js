@@ -3,10 +3,10 @@ class Animal {
     this.name = name;
   }
   sound() {
-    return(`${this.name} make sound`);
+    return `${this.name} make sound`;
   }
   eat() {
-    return(`${this.name} eats`);
+    return `${this.name} eats`;
   }
 }
 class Dog extends Animal {
@@ -14,7 +14,7 @@ class Dog extends Animal {
     super(name);
   }
   sound() {
-    return(`Dog barks`);
+    return `Dog barks`;
   }
 }
 class Cat extends Animal {
@@ -22,7 +22,7 @@ class Cat extends Animal {
     super(name);
   }
   sound() {
-    return(`Cat meows`);
+    return `Cat meows`;
   }
 }
 
