@@ -1,4 +1,4 @@
-const { Animal, Dog, Cat, Home } = require("../src/animals");
+const { Animal, Home } = require("../src/animals");
 describe("class Animal", () => {
   let dog = new Animal("Dog");
   let cat = new Animal("Cat");
